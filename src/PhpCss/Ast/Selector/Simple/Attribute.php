@@ -19,7 +19,7 @@ namespace PhpCss\Ast\Selector\Simple {
     public $literal;
 
     public function __construct(
-      string $name = '', int $match = self::MATCH_EXISTS, Ast\Value\Literal $literal = NULL
+      string $name = '', int $match = self::MATCH_EXISTS, ?Ast\Value\Literal $literal = NULL
     ) {
       $this->name = $name;
       $this->match = $match;

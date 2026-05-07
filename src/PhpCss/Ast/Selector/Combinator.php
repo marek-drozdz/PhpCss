@@ -7,7 +7,7 @@ namespace PhpCss\Ast\Selector  {
 
     public $sequence;
 
-    public function __construct(Sequence $sequence = NULL) {
+    public function __construct(?Sequence $sequence = NULL) {
       $this->sequence = $sequence;
     }
 

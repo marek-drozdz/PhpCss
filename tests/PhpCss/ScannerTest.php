@@ -766,7 +766,7 @@ namespace PhpCss {
      * @param bool|null $isEndToken
      * @return Scanner\Status|MockObject
      */
-    private function getStatusMockObjectFixture(array $tokens, bool $isEndToken = NULL): Scanner\Status {
+    private function getStatusMockObjectFixture(array $tokens, ?bool $isEndToken = NULL): Scanner\Status {
       $status = $this
         ->getMockBuilder(Scanner\Status::CLASS)
         ->setMockClassName('Mock_PhpCssScannerStatus')

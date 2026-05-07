@@ -9,7 +9,7 @@ namespace PhpCss\Ast\Selector\Simple {
     public $name = '';
     public $parameter;
 
-    public function __construct(string $name, Ast\Node $parameter = NULL) {
+    public function __construct(string $name, ?Ast\Node $parameter = NULL) {
       $this->name = $name;
       $this->parameter = $parameter;
     }

@@ -16,7 +16,7 @@ namespace PhpCss\Ast\Selector {
      * @param Simple[] $simples
      * @param Combinator|NULL $combinator
      */
-    public function __construct(array $simples = [], Combinator $combinator = NULL) {
+    public function __construct(array $simples = [], ?Combinator $combinator = NULL) {
       $this->simples = $simples;
       $this->combinator = $combinator;
     }
